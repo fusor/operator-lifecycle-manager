@@ -24,7 +24,7 @@ spec:
         - name: olm-operator
           command:
           - /bin/olm
-          image: eriknelson/olm:nonresourceurl-support
+          image: eriknelson/olm
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080

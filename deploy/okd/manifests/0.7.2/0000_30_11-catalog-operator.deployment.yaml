@@ -27,7 +27,7 @@ spec:
           - '-namespace'
           - openshift-operator-lifecycle-manager
           - '-debug'
-          image: eriknelson/olm:nonresourceurl-support
+          image: eriknelson/olm
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
