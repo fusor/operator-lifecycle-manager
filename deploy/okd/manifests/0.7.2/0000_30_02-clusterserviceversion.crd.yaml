@@ -649,6 +649,7 @@ spec:
                                       type: string
                                       enum:
                                         - "*"
+                                        - assign
                                         - get
                                         - list
                                         - watch
@@ -697,6 +698,7 @@ spec:
                                       type: string
                                       enum:
                                       - "*"
+                                      - assign
                                       - get
                                       - list
                                       - watch
